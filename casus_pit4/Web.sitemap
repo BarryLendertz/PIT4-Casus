@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/" title="Home" description="Home">
+    <siteMapNode url="~/Default" title="Home" description="Go to the homepage" />
+    
+    <siteMapNode url="~/Informatie/Algemeen" title="Algemeen" description="Algmene informatie over opleiding HBO-ICT">
+      <siteMapNode url="~/Informatie/ID" title="ID" description="Informatie over ID" />
+      <siteMapNode url="~/Informatie/IT" title="IT" description="Informatie over IT" />
+      <siteMapNode url="~/Informatie/IM" title="IM" description="Informatie over IM" />
+    </siteMapNode>
+
+    <siteMapNode url="~/Studiekeuzecheck" title="Studiekeuzecheck" description="Maak de studiekeuzecheck" />
+    <siteMapNode url="~/Contact" title="Contact" description="Neem contact op met Stefan van Helden" />
+    <siteMapNode url="~/Inloggen" title="Beheer" description="Beheren van de website" />
+  </siteMapNode>
+
+  </siteMap>

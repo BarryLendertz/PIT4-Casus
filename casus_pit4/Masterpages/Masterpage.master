@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Masterpage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="/Scripts/modernizr-2.7.1.js"></script>
+</head>
+<body>
+    <link href="../styles/style.css" rel="stylesheet" />
+    <form id="form1" runat="server">
+    <div id="pageWrapper">
+        <header>
+            <a href="/">header goes here</a>
+        </header>
+        <nav>
+                    <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" Orientation="Horizontal" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False">
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        </nav>
+        <section>
+                <asp:ContentPlaceHolder id="cpMainContent" runat="server">
+                </asp:ContentPlaceHolder>
+        </section>
+        <aside></aside>
+    </div>
+    </form>
+</body>
+</html>

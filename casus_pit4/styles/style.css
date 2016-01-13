@@ -1,0 +1,10 @@
+﻿body {
+}
+
+#pageWrapper {
+    width: 900px;
+}
+
+.ErrorMessage {
+    color: red;
+}
